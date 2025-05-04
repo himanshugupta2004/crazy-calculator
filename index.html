@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>2D Calculator with Matter.js</title>
+  <script src="https://cdn.jsdelivr.net/npm/matter-js@0.19.0/build/matter.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <canvas id="world"></canvas>
+  <h1>We build crazy things<sup>Build by himanshu</sup></h1>
+
+  <div class="container-wrapper">
+    <div id="container1" class="drop-container" data-type="number"></div>
+    <div id="container2" class="drop-container" data-type="operator"></div>
+    <div id="container3" class="drop-container" data-type="number"></div>
+    <div id="container4" class="drop-container result-container" data-type="result"></div>
+  </div>
+
+  <audio id="dropSound" src="https://www.soundjay.com/button/beep-07.wav"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
